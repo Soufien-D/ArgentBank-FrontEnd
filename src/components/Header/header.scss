@@ -1,27 +1,27 @@
 header {
-    & nav { 
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        padding: 5px 20px;
-        & img {
-            max-width: 100%;
-            width: 200px;  
-        }
-        & a { 
-            color: #2c3e50;
-            display: flex;
-            margin-right: 0.5rem;
-        & p {
-            font-weight: bold;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-        & i {
-            font-size: 17px;
-            margin-right: 0.3rem;
-        }
-        }
+  & nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    & img {
+      max-width: 100%;
+      width: 200px;
     }
-   }
+    & a {
+      color: #2c3e50;
+      display: flex;
+      margin-right: 0.5rem;
+      & p {
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      & i {
+        font-size: 17px;
+        margin-right: 0.3rem;
+      }
+    }
+  }
+}

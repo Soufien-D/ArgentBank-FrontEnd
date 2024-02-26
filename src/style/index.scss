@@ -1,22 +1,22 @@
-* { 
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
 
-html { 
-  color:#2c3e50; 
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+html {
+  color: #2c3e50;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-}  
+}
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
